@@ -1,0 +1,12 @@
+The implementation of IF-PCA+ consists of two parts: a manifold fitting part and an IF-PCA part.
+
+The manifold fitting method is implemented in Matlab. The original code is from Professor Zhigang Yao's scAMF paper.
+The IF-PCA part is implemented in Python.
+
+To run IF-PCA+ on a selected dataset:
+1. Open the "Yao2_denoising.m" file from Matlab and select the desired dataset by modifying the name varaible.
+If the dataset selected contains negative entries, comment out the codes corresponding to log transformation. The denoised data array will be saved under "datasetname_Y2_denoised_data.mat"
+
+2. Open the IFPCAplus file in Python and run the code accordingly.
+
+
